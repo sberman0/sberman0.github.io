@@ -37,18 +37,24 @@ a:link {
 
 @media screen and (max-width: 850px) {
     .top-button {
-        width: 12%;
+        width: 14%;
     }
 }
 
 @media screen and (max-width: 700px) {
     .top-button {
-        width: 15%;
+        width: 17%;
     }
 }
 
 @media screen and (max-width: 550px) {
     .top-button {
-        width: 25%;
+        width: 27%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .top-button {
+        width: 33%;
     }
 }
