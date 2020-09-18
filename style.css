@@ -15,7 +15,6 @@ body {
     padding: 4px 7px;
     margin-top: 10px;
     margin-bottom: 15px;
-    width: 8%;
     text-align: center;
     display: block;
     color: #000;
@@ -28,4 +27,28 @@ a:link {
 
 .top-button:hover {
     background-color: #bbbdbf;
+}
+
+@media screen and (max-width: 2000px) {
+    .top-button {
+        width: 10%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .top-button {
+        width: 12%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .top-button {
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .top-button {
+        width: 19%;
+    }
 }
