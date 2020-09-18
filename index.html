@@ -45,7 +45,6 @@ index.html
             padding: 10px;
             margin-top: 10px;
             margin-bottom: 15px;
-            width: 25%;
             text-align: center;
             display: block;
             margin-left: auto;
@@ -59,6 +58,36 @@ index.html
 
         .box-button:hover {
             background-color: #bbbdbf;
+        }
+
+        @media screen and (max-width: 2000px) {
+            .portrait {
+                width: 33%;
+            }
+
+            .box-button {
+                width: 25%;
+            }
+        }
+
+        @media screen and (max-width: 700px) {
+            .portrait {
+                width: 45%;
+            }
+
+            .box-button {
+                width: 35%;
+            }
+        }
+
+        @media screen and (max-width: 500px) {
+            .portrait {
+                width: 50%;
+            }
+
+            .box-button {
+                width: 50%;
+            }
         }
     </style>
 </head>
