@@ -1,30 +1,85 @@
+<!--
+Author: Samuel J. Berman
+Updated: September, 2020
+
+Sam Berman's Personal Website
+index.html
+-->
+
 <!DOCTYPE html>
+
 <html>
+
 <head>
     <title>Sam Berman's Homepage</title>
+
     <meta charset="utf-8"/>
     <meta name="author" content="Sam Berman">
-    <meta name="description" content="Sam Berman's personal website.">
+    <meta name="description" content="Sam Berman's Personal Website">
     <meta name="keywords" content="sam berman, samuel berman,
           programming, computer science, compsci, website">
     <meta name="language" content="English">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="stylesheet" href="index.css"> -->
+    <link rel="stylesheet" href="style.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 
     <style type="text/css">
-        
-        body {
-            font-family: 'Roboto', sans-serif;
+        h1 {
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 20px;
         }
 
+        .portrait {
+            width: 30%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 45px;
+        }
+
+        .box-button {
+            border: 2px solid black;
+            border-radius: 2px;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            width: 25%;
+            text-align: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            color: #000;
+        }
+
+        a:link {
+            text-decoration: none;
+        }
+
+        .box-button:hover {
+            background-color: #bbbdbf;
+        }
     </style>
 </head>
-<body>
 
+<body>
     <h1>Welcome to Sam Berman's Personal Website!</h1>
 
+    <a href="https://sberman0.github.io/">
+        <img class="portrait" src="self.png">
+    </a>
 
+    <hr>
+    <br />
+
+    <a href="https://sberman0.github.io/bio.html">
+        <div class="box-button">BIO</div>
+    </a>
+
+    <a href="https://sberman0.github.io/resume.html">
+        <div class="box-button">RESUME</div>
+    </a>
 </body>
+
 </html>
